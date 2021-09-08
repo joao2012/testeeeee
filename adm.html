@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerencimento do sistema da biblioteca</title>
+    <title>Gerenciamento do sistema de biblioteca</title>
+    <link rel="shortcut icon" href="image/brandColor.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/fontAwesome/css/all.css">
     <link rel="stylesheet" href="libs/sweetAlert/dist/sweetalert2.css">
-    <link rel="stylesheet" href="libs/dataTables/datatables.css">
+    <link rel="stylesheet" href="libs/DataTables/datatables.css">
 </head>
 
 <body>
@@ -22,16 +23,19 @@
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="src/tipo-usuario/view/list-tipo.html"><i class="fas fa-user-tag"></i> Tipo de usuários</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="src/usuario/view/list-usuario.html"><i class="fas fa-users"></i> Usuários do sistema</a>
+                    <a class="nav-link text-white" href="src/eixo/view/list-eixo.html"><i class="fas fa-caret-square-down"></i> Eixos Tecnológicos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="src/curso/view/list-curso.html"><i class="fab fa-discourse"></i> Cursos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="src/eixo/view/list-eixo.html"><i class="fas fa-sim-card"></i> Eixos tecnológicos</a>
+                    <a class="nav-link text-white" href="src/tipo-usuario/view/list-tipo.html"><i class="fas fa-user-tag"></i> Tipos Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="src/usuario/view/list-usuario.html"><i class="fas fa-users"></i> Usuários do Sistema</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="src/trabalho/view/list-trabalho.html"><i class="fas fa-file-word"></i> Trabalhos</a>
                 </li>
             </ul>
         </div>
@@ -39,8 +43,8 @@
 
     <div class="container" id="conteudo">
         <div class="row justify-content-center mt-5">
-            <div class="col-12 col-sm-8 col-md-5 mt-5">
-                <img class="img-fluid" src="image/logo.png" alt="Biblioteca">
+            <div class="col-12 col-sm-8 col-md-4 mt-5">
+                <img class="img-fluid" src="image/logo.png" alt="Sistema">
             </div>
         </div>
     </div>
@@ -49,7 +53,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="libs/sweetAlert/dist/sweetalert2.js"></script>
     <script src="js/load-link.js"></script>
-    <script src="libs/dataTables/datatables.js"></script>
+    <script src="libs/DataTables/datatables.js"></script>
 </body>
 
 </html>

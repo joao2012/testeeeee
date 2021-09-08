@@ -4,11 +4,11 @@ $(document).ready(function() {
 
         e.preventDefault()
 
-        // Limpar os campos da minha janela modal
+
         $('.modal-title').empty()
         $('.modal-body').empty()
 
-        // Criar um novo título para nossa janela modals
+
         $('.modal-title').append('Edição do curso')
 
         let IDCURSO = `IDCURSO=${$(this).attr('id')}`
